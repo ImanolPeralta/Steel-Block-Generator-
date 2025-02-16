@@ -5,7 +5,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-openai.api_key = "" #Clave de openai
+openai.api_key = "" #Clave de OpenAi
 
 # Descripción de la vivienda 🏠
 def generar_descripcion(habitaciones, banos, estilo, presupuesto):
